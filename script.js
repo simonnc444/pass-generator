@@ -66,9 +66,3 @@ function password(l, characters) {
     }
     return pwd;
 }
-//function to copy password to computer clipboard
-function copied() {
-    document.getElementById("password").select();
-    document.execCommand("copy");
-    alert("The password has been copied to your clipboard!");
-}
