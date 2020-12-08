@@ -26,19 +26,19 @@ function generate() {
     }
 //getting user input for which character types to use for the password
     if (confirmLength) {
-        if (confirm("Would you like to use lowercase characters?") == true) {
+        if (confirm("Do you want lowercase characters in your password?") == true) {
             lowerSelection = true
         } 
 
-        if (confirm("Would you like to use uppercase characters?") == true) {
+        if (confirm("Do you want uppercase characters in your password?") == true) {
             upperSelection = true
         }
 
-        if (confirm("Would you like to use special characters?") == true) {
+        if (confirm("Do you want special characters in your password?") == true) {
             specialSelection = true
         }
 
-        if (confirm("Would you like to use numerical characters?") == true) {
+        if (confirm("Do you want numbers in your passwoerd?") == true) {
             numberSelection = true
         }
 //if none of the character types are selected, alerts the user to choose at least one
